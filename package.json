@@ -1,0 +1,22 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cucasu0209/hospitalmanagement.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cucasu0209/hospitalmanagement/issues"
+  },
+  "homepage": "https://github.com/Cucasu0209/hospitalmanagement#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
