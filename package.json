@@ -1,22 +1,39 @@
 {
   "name": "helloworld",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "backend nodejs",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node src/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cucasu0209/hospitalmanagement.git"
   },
-  "author": "",
+  "keywords": [
+    "fullstack",
+    "nodejs",
+    "express"
+  ],
+  "author": "Trung",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Cucasu0209/hospitalmanagement/issues"
   },
   "homepage": "https://github.com/Cucasu0209/hospitalmanagement#readme",
-  "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.26.9",
+    "@babel/node": "7.26.0",
+    "@babel/preset-env": "7.26.9",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2"
   }
 }
